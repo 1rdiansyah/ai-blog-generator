@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-utca4@g15+2rx+^9g@5+5d!f8uxwk%3yob7*-*u_#o#eve3^9o'
+SECRET_KEY = 'django-insecure-utca4@g15+xrx+^9g@5+5d!f8uxwk%3yob7*-*u_#o#eve3^9o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'gen_ai_blog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'odmlknxa',
-        'USER': 'odmlknxa',
-        'PASSWORD': 'KqxvZe4n2_Cr61IgDcglu7ALSH82NgKI',
-        'HOST': 'rain.db.elephantsql.com',
+        'ENGINE': 'dbengine',
+        'NAME': 'dbname',
+        'USER': 'username',
+        'PASSWORD': 'password',
+        'HOST': 'host',
         'PORT': '',
     }
 }
