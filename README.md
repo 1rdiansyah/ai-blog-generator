@@ -5,3 +5,6 @@ Initial release date: 19 July 2020
 ## Description
 AI blog generator tool, generate YouTube link to an article blog. It's using Python Django framework for backend and admin content management, along with PostgreSQL databases and Tailwind CSS.
 
+## Step by Step
+
+1. Create a virtual environment in the root directory: `python -m venv $ENV_NAME`
