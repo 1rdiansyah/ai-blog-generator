@@ -21,4 +21,5 @@ AI blog generator tool, generate YouTube link to an article blog. It's using Pyt
 12. After you add the credential, you need to run `python3 manage.py makemigrations` and then run `python3 manage.py migrate` on the terminal
 13. To accessing the Django admin you need to create superuser with `python3 manage.py createsuperuser`, then add your username, email, and password
 14. Setup your views.py or you can just copy it from [blog_generator/views.py](https://github.com/1rdiansyah/ai-blog-generator-from-youtube-link/blob/main/blog_generator/views.py)
-15. To get the Youtube Title you need to install pytube: `pip3 install pytube`
+15. To get/download the Youtube Audio (only) and Title you need to install and import pytube : `pip3 install pytube`
+16. Transcribe the audio to text with [AssemblyAI](https://www.assemblyai.com/), signup and create and copy API Token to [blog_generator/views.py](https://github.com/1rdiansyah/ai-blog-generator-from-youtube-link/blob/main/blog_generator/views.py)
