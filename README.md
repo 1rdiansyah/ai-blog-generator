@@ -3,7 +3,7 @@
 Initial release date: 24 April 2024
 
 ## Description
-An AI blog generator tool, generate your YouTube link to an article blog. Using Python Django framework for backend and administrator dashboard, along with PostgreSQL databases and Tailwind CSS for UI design.
+An AI blog generator tool, generate your YouTube link to an article blog. Using Python Django framework for backend and administration system, along with PostgreSQL databases and Tailwind CSS for UI design.
 
 ## Step by Step
 
@@ -24,3 +24,5 @@ An AI blog generator tool, generate your YouTube link to an article blog. Using 
 15. To get/download the Youtube Audio (only) and Title you need to install and import pytube : `pip3 install pytube`
 16. Transcribe the audio to text with [AssemblyAI](https://www.assemblyai.com/), signup, create and copy your API Token to [blog_generator/views.py](https://github.com/1rdiansyah/ai-blog-generator-from-youtube-link/blob/main/blog_generator/views.py)
 17. The raw text transcription from AssemblyAI then fine-tuned with OpenAI 'GPT-3.5 Model'. You need to signup, create, and copy your OpenAI API key to [blog_generator/views.py](https://github.com/1rdiansyah/ai-blog-generator-from-youtube-link/blob/main/blog_generator/views.py)
+18. To save your generated blog article you need to create a model or just copy from [blog_generator/models.py](https://github.com/1rdiansyah/ai-blog-generator/blob/a583d04087cba973a44248cd3f0f0ce37aa0cea6/blog_generator/models.py) and run `python3 manage.py makemigrations` and then run `python3 manage.py migrate` on the terminal. So it will save your content to the database.
+19. 
