@@ -3,7 +3,7 @@
 Initial release date: 24 April 2024
 
 ## Description
-AI blog generator tool, generate YouTube link to an article blog. It's using Python Django framework for backend and admin content management, along with PostgreSQL databases and Tailwind CSS.
+An AI blog generator tool, generate your YouTube link to an article blog. Using Python Django framework for backend and administrator dashboard, along with PostgreSQL databases and Tailwind CSS for UI design.
 
 ## Step by Step
 
